@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://oasisinet.com
+  https://www.keanemusic.com/?lang=nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home 
-  <img src="readme-images/oasis_home.png" width="375px" alt="Home pagina van de website van Oasis">
+  <img src="readme-images/keane_home.png" width="375px" alt="Home pagina van de website van Keane">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Releases
-  <img src="readme-images/oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
+  music
+  <img src="keane_music.png" width="375px" alt="Overzicht pagina met de muziek van Keane">
  
 </details>
 
