@@ -43,7 +43,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/oasis_home.png" width="375px" alt="Home pagina van de website van Oasis">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  music
+  Releases
   <img src="readme-images/oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
  
 </details>
