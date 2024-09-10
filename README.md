@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Releases
-  <img src="readme-iamges/oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
+  <img src="readme-images/oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
  
 </details>
 
