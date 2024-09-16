@@ -56,10 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  •In de code wordt geen duidelijke toelichting gegeven over/bij verschillende links en forms.
-  •Er zijn geen tekst alternatieve of alt descripties bij afbeeldingen.
-  •Heading levels worden geskipt, er wordt wel netjes gestart met h1 en h2, maar daarna gaat het direct naar h4.
+  Lijst met je bevindingen die in de test naar voren kwamen:<br>
+  •In de code wordt geen duidelijke toelichting gegeven over/bij verschillende links en forms.<br>
+  •Er zijn geen tekst alternatieve of alt descripties bij afbeeldingen.<br>
+  •Heading levels worden geskipt, er wordt wel netjes gestart met h1 en h2, maar daarna gaat het direct naar h4.<br>
   •Videos bevatten geen ondertiteling.
 
 </details>
