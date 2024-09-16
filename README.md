@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Releases
-  <img src="readme-images/oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
+  <img src="oasis_releases.png" width="375px" alt="Overzicht pagina met de releases van Oasis">
  
 </details>
 
@@ -57,6 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  •In de code wordt geen duidelijke toelichting gegeven over/bij verschillende links en forms.
+  •Er zijn geen tekst alternatieve of alt descripties bij afbeeldingen.
+  •Heading levels worden geskipt, er wordt wel netjes gestart met h1 en h2, maar daarna gaat het direct naar h4.
+  •Videos bevatten geen ondertiteling.
 
 </details>
 
