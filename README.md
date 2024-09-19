@@ -94,6 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Bij het maken van de breakdownschets en dus ook bij de hyml vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
   <img src="readme-images/screenshot1.png" width="375px" alt="Eerste voortgang html-code">
+  
   Moet/kan de titel van een menubalk in een lijnstructuur?
   <img src="readme-images/screenshot2.png" width="375px" alt="Voortgang html-code">
 
