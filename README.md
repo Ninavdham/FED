@@ -56,10 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:<br>
-  •In de code wordt geen duidelijke toelichting gegeven over/bij verschillende links en forms.<br>
-  •Er zijn geen tekst alternatieve of alt descripties bij afbeeldingen.<br>
-  •Heading levels worden geskipt, er wordt wel netjes gestart met h1 en h2, maar daarna gaat het direct naar h4.<br>
+  Lijst met je bevindingen die in de test naar voren kwamen:
+  •In de code wordt geen duidelijke toelichting gegeven over/bij verschillende links en forms.
+  •Er zijn geen tekst alternatieve of alt descripties bij afbeeldingen.
+  •Heading levels worden geskipt, er wordt wel netjes gestart met h1 en h2, maar daarna gaat het direct naar h4.
   •Videos bevatten geen ondertiteling.
 
 </details>
@@ -92,17 +92,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Bij het maken van de breakdownschets en dus ook bij de hyml vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
+  <img src="readme-images/screenshot1.png" width="375px" alt="Eerste voortgang html-code">
+  Moet/kan de titel van een menubalk in een lijnstructuur?
+  <img src="readme-images/screenshot2.png" width="375px" alt="Voortgang html-code">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Nina           |  Sem               | Sam          | Bronger          |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Onduidelijkheid over start en eind van sections.<br>
+  Wanneer headings of paragrafen. <br>
+  Opzet lijnstructuur. | en dit             | en ik dit    | en dan ik dat    |
+  |  | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |  | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
