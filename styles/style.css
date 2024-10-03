@@ -5,11 +5,6 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -23,9 +18,132 @@
 
 
 
+
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+/****************/
+/*    HEADER    */
+/****************/
 
+
+/* Hamburger menu */
+header {
+	min-height: 4em;
+	padding:0 1em;
+	line-height: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header > button {
+	order: 2;
+}
+
+nav {
+   padding:1em;
+   display:grid;
+   align-content:start;
+   gap:1em;
+   position:fixed;
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   translate:-100%;
+   transition:1s;
+   background-color: white;
+}
+
+nav button {
+	justify-self: end;
+}
+
+nav ul {
+	margin:0; 
+    padding:0em;
+    list-style:none;
+}
+
+nav ul:nth-of-type(2){
+	display:flex;
+}
+
+nav ul img {
+	height: 3em;
+}
+
+nav.toonMenu {
+	translate:0;
+}
+
+
+/****************/
+/*     MAIN     */
+/****************/
+
+
+
+
+
+
+
+
+
+/****************/
+/*    FOOTER    */
+/****************/
+
+
+
+
+
+
+
+@media (min-width:38em) {
+	header > button {
+	  position:absolute;
+	  left:-9999em;
+	  
+	}
+	nav {
+		position:static;
+		translate:unset;
+		padding:0;
+		background:none;
+	  }
+	  
+	  nav button {
+		position:absolute;
+		left:-9999em;
+		
+	  }
+	  
+	  nav ul {
+		display:flex;
+		gap:.5em;
+		
+	  }
+	  
+	  nav a {
+		border: none;
+		flex-direction: column;
+		
+	  }
+	  header > a:last-of-type {
+		flex-direction:column;
+		
+	  }
+	}
+	
+	@media (min-width:57em) {
+		header > a:last-of-type,
+		nav a {
+		  flex-direction:row;
+		  
+		}
+	  }
+	
+	
