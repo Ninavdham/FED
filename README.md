@@ -175,7 +175,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Het is gelukt om de eerste css te schrijven, merk wel dat het soms lastig vind om de correcte selectoren te vinden, zo duurde het bijvoorbeeld even voordat ik de carousel eindelijk goed aansprak. Na redelijk wat css code te hebben geschreven, merk ik weer hoe lastig ik het vind om er een beetje orde over te houden, hier komen ook de comments bij ter sprake, ik moet hier goed op letten, voordat het een enorme chaos wordt en ik zelf ook niet meer weet wat alles is.
+  Het is gelukt om de eerste css te schrijven, merk wel dat ik het soms lastig vind om de correcte selectoren te vinden, zo duurde het bijvoorbeeld even voordat ik de carousel eindelijk goed aansprak. Na redelijk wat css code te hebben geschreven, merk ik weer hoe lastig ik het vind om er een beetje orde over te houden, hier komen ook de comments bij ter sprake, ik moet hier goed op letten, voordat het een enorme chaos wordt en ik zelf ook niet meer weet wat alles is.
 
 
   ### Agenda voor meeting
