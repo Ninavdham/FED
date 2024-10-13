@@ -92,7 +92,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Bij het maken van de breakdownschets en dus ook bij de hyml vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
+  Bij het maken van de breakdownschets en dus ook bij de html vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
   <img src="readme-images/screenshot1.png" width="375px" alt="Eerste voortgang html-code">
   Moet/kan de titel van een menubalk in een lijnstructuur?
   <img src="readme-images/screenshot2.png" width="375px" alt="Voortgang html-code">
@@ -128,7 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vind het nog lastig om te beginnen met de css, maar het is me wel gelukt om de eerste basis van mijn hamburgermenu te maken.
 
 
   ### Agenda voor meeting
@@ -144,7 +144,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Comments 
+  - Maak goed gebruik van comments.
   - punt 2
   - nog een punt
 - ...
@@ -175,7 +175,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het is gelukt om de eerste css te schrijven, merk wel dat het soms lastig vind om de correcte selectoren te vinden, zo duurde het bijvoorbeeld even voordat ik de carousel eindelijk goed aansprak. Na redelijk wat css code te hebben geschreven, merk ik weer hoe lastig ik het vind om er een beetje orde over te houden, hier komen ook de comments bij ter sprake, ik moet hier goed op letten, voordat het een enorme chaos wordt en ik zelf ook niet meer weet wat alles is.
 
 
   ### Agenda voor meeting

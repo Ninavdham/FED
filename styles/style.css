@@ -23,6 +23,10 @@
 /* JOUW STYLING */
 /****************/
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 /****************/
 /*    HEADER    */
 /****************/
@@ -30,7 +34,7 @@
 
 /* Hamburger menu */
 header {
-	min-height: 4em;
+	min-height: 3em;
 	padding:0 1em;
 	line-height: 1;
 	display: flex;
@@ -39,7 +43,8 @@ header {
 }
 
 header > button {
-	order: 2;
+	order: 4;
+	justify-self: end;
 }
 
 nav {
@@ -71,8 +76,13 @@ nav ul:nth-of-type(2){
 	display:flex;
 }
 
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
 nav ul img {
-	height: 3em;
+	height: 2em;
 }
 
 nav.toonMenu {
@@ -84,11 +94,70 @@ nav.toonMenu {
 /*     MAIN     */
 /****************/
 
+section {
+	padding: 30px 15px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.7rem;
+	margin-bottom: 2rem;;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+li a {
+	text-decoration: none;
+	list-style: none;
+}
 
 
 
 
 
+/* carousel */
+section:nth-of-type(4) ul {
+	display: flex;
+	gap: 3em;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	overscroll-behavior: contain auto;
+}
+
+section:nth-of-type(4) ul li {
+	flex-basis: 5em;
+	flex-shrink: 0;
+	align-items: center;
+	gap: .25em;
+}
+
+ul:nth-of-type(4) li a h3 {
+	order: 2;
+}
+
+ul:nth-of-type(4) li a img {
+	order: 1;
+	width: 100%;
+}
 
 
 
@@ -126,6 +195,7 @@ nav.toonMenu {
 		gap:.5em;
 		
 	  }
+	  
 	  
 	  nav a {
 		border: none;
