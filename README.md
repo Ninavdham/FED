@@ -191,9 +191,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Door de main specifiek aan te spreken en de footer niet kan door main toetevoegen aan de selector.
+  - Het menu juist laten plaatsen bij het grote scherm, gaat goed door display flex te noemen in de @meda.
+  - De search knop is een button en geen link (a)
   - ...
 
 </details>
