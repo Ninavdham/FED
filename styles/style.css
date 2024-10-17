@@ -19,6 +19,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -26,6 +38,17 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /****************/
 /*    HEADER    */
@@ -38,16 +61,33 @@ header {
 	padding:0 1em;
 	line-height: 1;
 	display: flex;
-	justify-content: space-between;
+	justify-content: end;
 	align-items: center;
 }
 
 header > button {
 	order: 4;
 	justify-self: end;
+	background-color: black;
+	border: none;
+	filter: invert();
+	z-index: 5;
 }
 
-nav {
+header > a {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+	z-index: 2;
+	
+}
+
+header > a img {
+	width: 6.8em;
+	height: auto;
+}
+
+header nav {
    padding:1em;
    display:grid;
    align-content:start;
@@ -60,28 +100,38 @@ nav {
    translate:-100%;
    transition:1s;
    background-color: white;
+   z-index: 1;
 }
 
-nav button {
+header nav button {
 	justify-self: end;
+	background: none;
+    border: none;
+    filter: invert(1);
 }
 
-nav ul {
+header nav ul {
 	margin:0; 
     padding:0em;
     list-style:none;
 }
 
-nav ul:nth-of-type(2){
+header nav ul li {
+	margin-top: 1em;
+}
+
+
+header nav ul:nth-of-type(2){
 	display:flex;
 }
 
-nav a {
+header nav a {
 	text-decoration: none;
+	margin-top: 1em;
 	color: black;
 }
 
-nav ul img {
+header nav ul img {
 	height: 2em;
 }
 
@@ -90,47 +140,153 @@ nav.toonMenu {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /****************/
 /*     MAIN     */
 /****************/
 
-section {
-	padding: 30px 15px;
+/* section definitely maybe */
+section:nth-of-type(1) {
+	padding: 20px 15px;
 	text-align: center;
 }
 
-h1 {
-	font-size: 1.7rem;
-	margin-bottom: 2rem;;
+section:nth-of-type(1) h1{
+	font-size: 1.7em;
+	margin-bottom: 1em;
 }
 
-h2 {
-	font-size: 1rem;
+section:nth-of-type(1) h2 {
+	font-size: 1em;
+	margin-bottom: 1em;
 }
 
-p {
-	font-size: 1rem;
+section:nth-of-type(1) p {
+	font-size: 1em;
 	line-height: 1.5;
 	margin: 0 auto;
 	max-width: 90%;
 }
 
-img {
-	max-width: 100%;
+section:nth-of-type(1) img {
+	width: 100%;
 	height: auto;
+	margin-top: 2em;
 }
 
-video {
-	max-width: 100%;
+section:nth-of-type(1) video {
+    width: 100%;
 	height: auto;
+	margin-top: 1em;
 }
 
-li a {
+section:nth-of-type(1) a{
+	background-color: black;
+	padding: .4em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	border: .2em solid white;
+	outline: .1em solid black;
+}
+
+section:nth-of-type(1) li a {
 	text-decoration: none;
 	list-style: none;
 }
 
 
+
+
+/* section trending now */
+
+section:nth-of-type(2) {
+	text-align: center;
+}
+
+section:nth-of-type(2) ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+section:nth-of-type(2) h2 {
+	text-align: center;
+}
+
+section:nth-of-type(2) h3 {
+	text-align: center;
+	width: 20em;
+
+}
+
+section:nth-of-type(2) p {
+	text-align: center;
+}
+
+section:nth-of-type(2) a {
+	text-align: center;
+	color: black;
+}
+
+section:nth-of-type(2) img {
+	width: 20em;
+}
+
+
+
+
+/* section Oasis live '25 */
+
+section:nth-of-type(3){
+	text-align: center;
+}
+
+section:nth-of-type(3) ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+
+}
+
+section:nth-of-type(3) h2 {
+	text-align: center;
+}
+
+section:nth-of-type(3) h3 {
+	text-align: center;
+
+}
+
+section:nth-of-type(3) p {
+	text-align: center;
+}
+
+section:nth-of-type(3) a {
+	text-align: center;
+	color: black;
+}
+
+section:nth-of-type(3) img {
+	width: 100%;
+	height: auto;
+}
+
+section:nth-of-type(3) video {
+	width: 100%;
+    height: auto;
+	margin-top: 2em;
+}
 
 
 
@@ -141,23 +297,41 @@ section:nth-of-type(4) ul {
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	overscroll-behavior: contain auto;
+	list-style: none;
 }
 
 section:nth-of-type(4) ul li {
-	flex-basis: 5em;
+	flex-basis: 6em;
 	flex-shrink: 0;
 	align-items: center;
 	gap: .25em;
 }
 
-ul:nth-of-type(4) li a h3 {
-	order: 2;
+section:nth-of-type(4) img{
+	width: 10em;
+	height: auto;
 }
 
-ul:nth-of-type(4) li a img {
-	order: 1;
-	width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,11 +339,29 @@ ul:nth-of-type(4) li a img {
 /*    FOOTER    */
 /****************/
 
+footer section:nth-of-type(1)ul{
+	display: flex;
+}
+
+footer section:nth-of-type(2)ul{
+	display: flex;
+}
+
+
+footer section:nth-of-type(3)ul{
+	display: flex;
+}
 
 
 
 
 
+
+
+
+/****************/
+/*    MEDIA     */
+/****************/
 
 @media (min-width:38em) {
 	header > button {
@@ -177,14 +369,14 @@ ul:nth-of-type(4) li a img {
 	  left:-9999em;
 	  
 	}
-	nav {
+	header nav {
 		position:static;
 		translate:unset;
 		padding:0;
 		background:none;
 	  }
 	  
-	  nav button {
+	  header nav button {
 		position:absolute;
 		left:-9999em;
 		
@@ -195,6 +387,7 @@ ul:nth-of-type(4) li a img {
 		gap:.5em;
 		
 	  }
+
 	  
 	  
 	  nav a {
@@ -214,6 +407,7 @@ ul:nth-of-type(4) li a img {
 		  flex-direction:row;
 		  
 		}
+
 	  }
 	
 	
