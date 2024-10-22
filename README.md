@@ -183,7 +183,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Nina      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | De html code in de footer wordt aangesproken door de eerder geschreven css, hoe kan ik dit aanpakken? | en dit             | en ik dit    | en dan ik dat    |
+  | De html code in de footer wordt aangesproken door de eerder geschreven css, hoe moet ik hiermee werken? | en dit             | en ik dit    | en dan ik dat    |
   |  | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -191,9 +191,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Door de main specifiek aan te spreken en de footer niet kan door main toetevoegen aan de selector.
-  - Het menu juist laten plaatsen bij het grote scherm, gaat goed door display flex te noemen in de @meda.
-  - De search knop is een button en geen link (a)
+  - punt 1
+  - punt 2
+  - nog een punt
   - ...
 
 </details>
