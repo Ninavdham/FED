@@ -80,7 +80,6 @@
   
   a {
 	color: var(--link-color);
-	text-decoration: none;
   }
   
   button {
@@ -233,15 +232,44 @@ main section:nth-of-type(4) ul {
 }
 
 main section:nth-of-type(4) ul li {
+	display: flex;
+	flex-direction: column;
 	flex-basis: 6em;
 	flex-shrink: 0;
-	align-items: center;
+	
 	gap: .25em;
+	font-size: 1em;
 }
 
-main section:nth-of-type(4) img{
+main section:nth-of-type(4) ul li  h3{
+	order: 2;
+}
+
+main section:nth-of-type(4) ul li  h3:nth-of-type(3){
+	order: 2;
+	text-transform: capitalize;
+}
+
+main section:nth-of-type(4) ul li  p{
+	order: 3;
+}
+
+main section:nth-of-type(4) ul li  a:nth-of-type(2){
+	order: 4;
+}
+
+main section:nth-of-type(4) ul li a{
+	color: black;
+	background-color: white;
+	border: .2em solid black;
+}
+
+main section:nth-of-type(4) ul li a img{
+	display: flex;
 	width: 10em;
 	height: auto;
+	order: 1;
+	border: none;
 }
 
 

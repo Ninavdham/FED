@@ -191,8 +191,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Om het juiste gedeelte van de code aan te spreken, moet je specifiek aangeven in de css om welke gedeelte van de code het gaat. (header, main, footer)
+  - De search in de navigatie is een button, het brengt je niet naar een andere pagina en is uds geen link (a).
   - nog een punt
   - ...
 
