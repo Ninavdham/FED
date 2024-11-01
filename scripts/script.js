@@ -42,3 +42,20 @@ toggleButton.addEventListener('click', function () {
     // Sla de modus op in localStorage
     localStorage.setItem('theme', currentTheme);
 });
+
+
+
+function showCategory(categoryClass, button) {
+    // Alle categorieën verbergen
+    const allCategories = document.querySelectorAll('.content ul');
+    allCategories.forEach(category => category.classList.remove('active-category'));
+  
+    // Alleen de geselecteerde categorie tonen
+    document.querySelector(`.${categoryClass}`).classList.add('active-category');
+  
+    // De 'active' klasse bijwerken voor de knoppen
+    const allButtons = document.querySelectorAll('.buttons input');
+    allButtons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+  }
+  

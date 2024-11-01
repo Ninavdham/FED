@@ -7,12 +7,28 @@
 /*   MAIN   /*
 /***********/
 
+.content ul{
+	display: none;
+  }
+  
+  .content ul.active-category {
+	display: block;
+  }
+  
+  .buttons input.active {
+	background-color:black;
+	color:white;
+  }
+
 /* muziek categoriën */
 main section:nth-of-type(2) input[type="button"]{
-	background-color: white;
 	border: .2em solid black;
 	padding: .2em;
 	margin: .3em;
+}
+
+main section:nth-of-type(2) input[type="button"]:hover{
+	transform: translateY(-.3em);
 }
 
 /* Albums */
@@ -26,12 +42,23 @@ main section:nth-of-type(3) ul{
    list-style: none;
 }
 
-
 main section:nth-of-type(3) img{
 	width: 22em;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -67,7 +94,7 @@ main section:nth-of-type(3) img{
 /*    MEDIA     */
 /****************/
 
-@media (min-width:38em) {
+/*@media (min-width:38em) {
 	header > button {
 	  position:absolute;
 	  left:-9999em;
@@ -104,15 +131,11 @@ main section:nth-of-type(3) img{
 		flex-direction:column;
 		
 	  }
-	}
+	}*/
 	
 	@media (min-width:57em) {
-		header > a:last-of-type,
-		nav a {
-		  flex-direction:row;
-		  
-		}
 		main section:nth-of-type(3) ul{
+			display: flex;
 			flex-direction: row;
 			gap: 2em;
 		}

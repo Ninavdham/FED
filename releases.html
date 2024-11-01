@@ -18,7 +18,7 @@
         />
       </button>
       <a href="index.html"
-        ><img src="images/oasis_logo.png" alt="Oasis logo"
+        ><img src="images/oasis_logo_footer.svg" alt="Oasis logo"
       /></a>
       <nav>
         <button aria-hidden="true">
@@ -36,8 +36,8 @@
           <li><a href="">Lyrics</a></li>
           <li><a href="">Live</a></li>
           <li><a href="">oasismynet</a></li>
+          <li><input type="button" value="Search"></li>
         </ul>
-        <input type="button" value="Search" />
         <ul>
           <li>
             <a href=""
@@ -77,41 +77,66 @@
           Star’…
         </p>
       </section>
-      <section>
-        <input type="button" value="Albums (7)" />
-        <input type="button" value="Live Albums (2)" />
-        <input type="button" value="Singles & B-sides (27)" />
-        <input type="button" value="Compilations (5)" />
-        <input type="button" value="Films (5)" />
+      <section class="buttons">
+        <input type="button" value="Albums (7)" class="active" onclick="showCategory('albums', this)" />
+        <input type="button" value="Live Albums (2)" onclick="showCategory('live-albums', this)" />
+        <input type="button" value="Singles & B-sides (27)" onclick="showCategory('singles', this)" />
+        <input type="button" value="Compilations (5)" onclick="showCategory('compilations', this)" />
+        <input type="button" value="Films (5)" onclick="showCategory('films', this)" />
       </section>
-      <section>
-        <ul>
+      
+      <section class="content">
+        <ul class="albums active-category">
           <li>
-            <a href=""><img src="images/DM.jpg" alt="" /></a>
+            <a href=""><img src="images/DM.jpg" alt="Definitely Maybe cover" /></a>
             <h2>Definitely Maybe</h2>
             <p>Albums</p>
             <p>1994</p>
           </li>
           <li>
-            <a href=""><img src="images/morningglory.jpg" alt="" /></a>
+            <a href=""><img src="images/morningglory.jpg" alt="Morning Glory cover" /></a>
             <h2>(What's The Story) Morning Glory?</h2>
             <p>Albums</p>
             <p>1995</p>
           </li>
           <li>
-            <a href=""><img src="images/beherenow.jpeg" alt="" /></a>
+            <a href=""><img src="images/beherenow.jpeg" alt="Be Here Now cover" /></a>
             <h2>Be Here Now</h2>
             <p>Albums</p>
             <p>1997</p>
           </li>
           <li>
-            <a href=""><img src="images/sotsog.jpg" alt="" /></a>
+            <a href=""><img src="images/sotsog.jpg" alt="Standing On The Shoulders Of Giants cover" /></a>
             <h2>Standing On The Shoulders Of Giants</h2>
             <p>Albums</p>
             <p>2000</p>
           </li>
         </ul>
+        <ul class="live-albums">
+          <li>
+            <a href=""><img src="images/ftm.jpg" alt="Familiar to Millions cover" /></a>
+            <h2>Familiar to Millions</h2>
+            <p>Live Albums</p>
+            <p>2000</p>
+          </li>
+          <li>
+            <a href=""><img src="images/knepworth.jpg" alt="Oasis Knebworth 1996 cover" /></a>
+            <h2>Oasis Knebworth 1996</h2>
+            <p>Live Albums</p>
+            <p>2021</p>
+          </li>
+        </ul>
+        <ul class="singles">
+          <!-- Singles content here -->
+        </ul>
+        <ul class="compilations">
+          <!-- Compilations content here -->
+        </ul>
+        <ul class="films">
+          <!-- Films content here -->
+        </ul>
       </section>
+      
 
       <section>
         <h2>Listen to Oasis</h2>

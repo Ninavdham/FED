@@ -12,6 +12,7 @@
 /* section definitely maybe */
 main section:nth-of-type(1) {
 	text-align: center;
+	align-items: center;
 }
 
 main section:nth-of-type(1) h1{
@@ -26,9 +27,9 @@ main section:nth-of-type(1) h2 {
 }
 
 main section:nth-of-type(1) h2:nth-of-type(2) {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-bottom: 1em;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 main section:nth-of-type(1) p {
@@ -40,9 +41,9 @@ main section:nth-of-type(1) p {
 }
 
 main section:nth-of-type(1) img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 main section:nth-of-type(1) video {
@@ -58,7 +59,7 @@ main section:nth-of-type(1) a{
 	text-transform: uppercase;
 	color: white;
 	border: .2em solid white;
-	outline: .1em solid black;
+	outline: .2em solid black;
 }
 
 main section:nth-of-type(1) li a {
@@ -199,7 +200,7 @@ main section:nth-of-type(3) video {
 /*    MEDIA     */
 /****************/
 
-@media (min-width:38em) {
+/*@media (min-width:75em) {
 	header > button {
 	  position:absolute;
 	  left:-9999em;
@@ -236,26 +237,59 @@ main section:nth-of-type(3) video {
 		flex-direction:column;
 		
 	  }
-	}
+	}*/
 	
-	@media (min-width:57em) {
-		header > a:last-of-type,
+	@media (min-width:60em) {
+		/*header > a:last-of-type,
 		nav a {
 		  flex-direction:row;
 		  
+		}*/
+
+		main section:nth-of-type(1) {
+			text-align: center;
+			align-items: center;
+		}
+
+		main section:nth-of-type(1) p {
+			text-align: center;
+			max-width: 50em;
 		}
 
 		main section:nth-of-type(1) img {
-			width: 40em;
+			max-width: 50%;
+			height: auto;
+			margin: 4em;
+			margin-left: 19em;
+			margin-right: 19em;
+		}
+		
+		main section:nth-of-type(1) video {
+			max-width: 50%;
+			height: auto;
+			margin-top: 1em;
+			margin: 4em;
+			margin-left: 19em;
+            margin-right: 19em;
+		}
+
+		main section:nth-of-type(2) ul {
+			display: flex;
+			gap: 2em;
+			justify-content: center;
+		}
+
+		main section:nth-of-type(3) img {
+			width: 50%;
+			height: auto;
+		}
+		
+		main section:nth-of-type(3) video {
+			width: 50%;
 			height: auto;
 			margin-top: 2em;
 		}
 		
-		main section:nth-of-type(1) video {
-			width: 40em;
-			height: auto;
-			margin-top: 1em;
-		}
 
 	  }
 	
