@@ -72,13 +72,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/FED_breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -162,6 +160,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Uit de toegankelijkheidstest van mijn website is gebleken dat de basislay-out goed is dankzij het gebruik van headings op de juiste plekken en in de correcte volgorde. Daarnaast is er op mijn site zorgvuldig omgegaan met alternatieve teksten (alts) voor afbeeldingen, wat een verbetering is ten opzichte van de officiële website waar dit ontbreekt. Een tekortkoming die ik helaas deel met de officiële site is het ontbreken van ondertiteling bij video’s, terwijl dit wel vereist is. Verder werkt de zoomfunctie op mijn website goed, maar veroorzaakt deze bij gebruik de verschuiving van enkele elementen, wat niet wenselijk is. Hoewel mijn website aan de toegankelijkheidseisen voldoet, zijn er enkele aspecten van de lay-out die hieronder lijden.
 
 </details>
 
@@ -192,7 +191,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Om het juiste gedeelte van de code aan te spreken, moet je specifiek aangeven in de css om welke gedeelte van de code het gaat. (header, main, footer)
-  - De search in de navigatie is een button, het brengt je niet naar een andere pagina en is uds geen link (a).
+  - De search in de navigatie is een button, het brengt je niet naar een andere pagina en is dus geen link (a).
   - nog een punt
   - ...
 
@@ -208,7 +207,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Homepage_telefoon.png" width="375px" alt="Homepage telefoonscherm">
+  <img src="readme-images/Homepage_laptop.png" width="375px" alt="Homepage laptop scherm">
+  <img src="readme-images/Releases_telefoon.png" width="375px" alt="Releases telefoonscherm">
+  <img src="readme-images/Releases_laptop.png" width="375px" alt="Releases laptop scherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -236,8 +238,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Officiële website: https://oasisinet.com
+  2. Codepen (Hamburgermenu, carousel, darkmode)
+  3. ChatGPT (Darkmode, filter)
 
 </details>

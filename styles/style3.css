@@ -50,7 +50,12 @@
   body {
       font-family: Arial, Helvetica, sans-serif;
   }
-  
+
+
+  /***************************/
+  /* STYLING LIGHT/DARK MODE */
+  /***************************/
+  /* Bron: ChatGPT */
 /* Default (light mode) kleuren */
 :root {
 	--bg-color: #ffffff;
@@ -115,6 +120,7 @@
 
 
 /* Hamburger menu */
+/* Bron: Codepen Oefening 2 - responsive 2-buttons hamburger*/ 
 header {
 	min-height: 3em;
 	padding:0 1em;
@@ -172,6 +178,8 @@ header nav ul {
 	margin:0; 
     padding:0em;
     list-style:none;
+	font-size: large;
+	gap: .8em;
 }
 
 header nav ul li {
@@ -226,6 +234,7 @@ nav.toonMenu {
 /************/
 
 /* carousel */
+/* Bron: Codepen Flexbox - Oefening 1 (sommetje 12)*/
 main section:nth-of-type(4) ul {
 	display: flex;
 	gap: 3em;
@@ -240,7 +249,6 @@ main section:nth-of-type(4) ul li {
 	flex-direction: column;
 	flex-basis: 6em;
 	flex-shrink: 0;
-	
 	gap: .25em;
 	font-size: 1em;
 }
@@ -300,6 +308,19 @@ main section:nth-of-type(4) ul li a img{
 /*    FOOTER    */
 /****************/
 
+footer section{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+footer section ul{
+	text-align: left;
+	padding-left: 0;
+	margin-left: 0;
+
+}
+
 footer section:nth-of-type(1){
     position: relative;
     background-image: url(https://oasisinet.com/wp-content/uploads/2022/05/suscribe-bg-2.jpeg); 
@@ -316,6 +337,12 @@ footer section:nth-of-type(1){
 
 footer section:nth-of-type(1) h2{
     text-transform: uppercase;
+	text-shadow: .1em .1em black;
+}
+
+
+footer section:nth-of-type(1) p{
+    max-width: 40em;
 }
 
 footer section:nth-of-type(1) a{
@@ -347,6 +374,7 @@ footer nav {
 
 footer nav h2 {
 	margin-bottom: 0;
+	font-size:medium;
 }
 
 footer nav ul li {
@@ -370,21 +398,18 @@ footer nav section:nth-of-type(1) a{
 footer nav ul:nth-of-type(1){
 	display: flex;
 	flex-wrap: wrap;
-    gap: 1em;
 	list-style: none;
     color: white;
 }
 
-footer nav ul li:nth-of-type(1) img{
-	width: 5em;
+footer nav section img:nth-of-type(1){
+	width: 4em;
 }
 
 
-
-
-
-
-
+footer nav section:nth-of-type(2) img{
+	width: 2em;
+}
 
 footer nav ul:nth-of-type(2){
 	display: flex;
@@ -393,6 +418,7 @@ footer nav ul:nth-of-type(2){
     gap: 1em;
 	list-style: none;
     color: white;
+	font-size: smaller;
 }
 
 footer nav ul li a{
@@ -417,6 +443,18 @@ footer nav ul:nth-of-type(3){
 footer nav ul:nth-of-type(3) li h2{
     list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -454,6 +492,10 @@ footer nav ul:nth-of-type(3) li h2{
 	  left:-9999em;
 	}
 
+	.search-button{
+		margin-left: auto;
+	}
+
 	header nav {
 		display: flex;
 		gap: 1em;
@@ -463,16 +505,26 @@ footer nav ul:nth-of-type(3) li h2{
 		translate:unset;
 		background:none;
 	  }
+
+	  header nav ul li{
+		  margin-top: 0em;
+	  }
 	  
-	  header nav button {
+	  header nav button:nth-of-type(1) {
 		position:absolute;
 		left:-9999em;
 		
 	  }
-	  
+
+	  header nav li button:nth-of-type(2) il{
+		position:absolute;
+		left: 100em;
+		
+	}
+
+
 	  nav ul {
 		display:flex;
-		gap:.5em;
 		
 	  }
 	  
@@ -486,15 +538,18 @@ footer nav ul:nth-of-type(3) li h2{
 		
 	  }
 
-	  footer nav {
+	  main section:nth-of-type(4) ul{
+		justify-content: center;
+		margin-bottom: 2em;
+	}
 
+	  footer nav {
 		display: flex;
 		justify-content: space-between;
+		padding-left: 10em;
+        padding-right: 10em;
 	  }
 
-	  footer ul:nth-of-type(1), ul:nth-of-type(2), ul:nth-of-type(3){
-		  display: flex;
-	  }
 
 	  footer ul:nth-of-type(4){
 		display: flex;
@@ -511,6 +566,10 @@ footer nav ul:nth-of-type(3) li h2{
 			flex-direction: row;
 		}
 
+		header nav ul li{
+			margin-top: 1em;
+		}
+
 		header nav ul:nth-of-type(2){
 			position: absolute;
 			top: 0;
@@ -519,6 +578,22 @@ footer nav ul:nth-of-type(3) li h2{
 
 		header nav input[type="button"] {
 			position: absolute;
+		}
+
+		header nav ul li:nth-of-type(9){
+			margin-left: auto;
+		}
+
+		footer section {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		footer section ul {
+			text-align: left;
+			padding-left: 0;
+			margin-left: 0;
 		}
 
 		footer nav{
@@ -530,6 +605,19 @@ footer nav ul:nth-of-type(3) li h2{
 		footer nav section:nth-of-type(1){
 		flex-direction:  column;
 	}
+        
+	@media (min-width: 100em) {
+		main {
+		  max-width: 88em;
+		  margin: 0 auto;
+		}
+	  
+		main section {
+		  padding: 2em;
+		}
+	  
+	  }
+		 
 	
 	}
 	

@@ -8,6 +8,7 @@
 
     <link href="styles/style2.css" rel="stylesheet" />
     <link href="styles/style3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <header>
@@ -36,7 +37,11 @@
           <li><a href="">Lyrics</a></li>
           <li><a href="">Live</a></li>
           <li><a href="">oasismynet</a></li>
-          <li><input type="button" value="Search"></li>
+          <li>
+            <button type="button" class="search-button"></button>
+              <i class="fas fa-search"></i> Search</button>
+            </button></button>
+          </li>
         </ul>
         <ul>
           <li>
@@ -83,6 +88,11 @@
         <input type="button" value="Singles & B-sides (27)" onclick="showCategory('singles', this)" />
         <input type="button" value="Compilations (5)" onclick="showCategory('compilations', this)" />
         <input type="button" value="Films (5)" onclick="showCategory('films', this)" />
+        <div class="search-container">
+          <input type="text" placeholder="Search music" autocomplete="off" aria-label="Search music">
+          <i class="fas fa-search search-icon"></i>
+        </div>
+        
       </section>
       
       <section class="content">
@@ -127,13 +137,58 @@
           </li>
         </ul>
         <ul class="singles">
-          <!-- Singles content here -->
+          <li>
+            <a href=""><img src="images/supersonic-1.jpeg" alt="Supersonic singlecover" /></a>
+            <h2>Supersonic</h2>
+            <p>Singles & B-Sides</p>
+            <p>1994</p>
+          </li>
+          <li>
+            <a href=""><img src="images/Shakermaker-800x800.jpg" alt="Shakermaker singlecover" /></a>
+            <h2>Shakermaker</h2>
+            <p>Singles & B-Sides</p>
+            <p>1994</p>
+          </li>
+          <li>
+            <a href=""><img src="images/Live-forever.jpg" alt="Live Forever singlecover" /></a>
+            <h2>Live Forever</h2>
+            <p>Singles & B-Sides</p>
+            <p>1994</p>
+          </li>
         </ul>
         <ul class="compilations">
-          <!-- Compilations content here -->
+          <li>
+            <a href=""><img src="images/defmaybesingles-499x500-1.jpg" alt="Definitely Maybe Singles Cover" /></a>
+            <h2>Definitely Maybe: Singles</h2>
+            <p>Compilations</p>
+            <p>1996</p>
+          </li>
+          <li>
+            <a href=""><img src="images/glory-box-499x500-1.jpg" alt="What's the story morning glory? Singles Cover" /></a>
+            <h2>(What's The Story) Morning Glory?: Singles</h2>
+            <p>Compilations</p>
+            <p>1996</p>
+          </li>
+          <li>
+            <a href=""><img src="images/themasterplan.jpg" alt="The Masterplan Cover" /></a>
+            <h2>The Masterplan</h2>
+            <p>Compilations</p>
+            <p>1998</p>
+          </li>
         </ul>
         <ul class="films">
-          <!-- Films content here -->
+          <li>
+            <a href=""><img src="images/Live-By-The-Sea.jpeg" alt="Live by the sea Cover" /></a>
+            <h2>Live By The Sea</h2>
+            <p>Films</p>
+            <p>1995</p>
+          </li>
+          <li>
+            <a href=""><img src="images/definitelymaybe_dvd.jpg" alt="Definitely Maybe dvd Cover" /></a>
+            <h2>Definitely Maybe (DVD)</h2>
+            <p>Films</p>
+            <p>2004</p>
+          </li>
         </ul>
       </section>
       
@@ -187,78 +242,52 @@
         <a href="#">Join</a>
       </section>
       <nav>
-        <a href="index.html"
-          ><img src="images/oasis_logo_footer.svg" alt="Oasis logo"
-        /></a>
-        <ul>
-          <li><a href="">News</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">The Story</a></li>
-          <li><a href="">Releases</a></li>
-          <li><a href="">On Film</a></li>
-          <li><a href="">Lyrics</a></li>
-          <li><a href="">Live</a></li>
-          <li><a href="">Search</a></li>
-          <li><a href="">Subscribe</a></li>
-        </ul>
-        <button id="darkModeToggle">Switch to dark mode</button>
-        <ul>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms</a></li>
-        </ul>
+        <section>
+          <a href="index.html"><img src="images/oasis_logo_footer.svg" alt="Oasis logo"></a>
+          <ul>
+           <li><a href="">News</a></li>
+           <li><a href="">Shop</a></li>
+           <li><a href="">The Story</a></li>
+           <li><a href="">Releases</a></li>
+           <li><a href="">On Film</a></li>
+           <li><a href="">Lyrics</a></li>
+           <li><a href="">Live</a></li>
+           <li><a href="">Search</a></li>
+           <li><a href="">Subscribe</a></li>
+          </ul>
+          <button id="darkModeToggle">Switch to dark mode</button>
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Follow Oasis on:</h2> 
+          <ul>
+              <li><a href=""><img src="images/instagram_footer.png" alt="Instagram van Oasis"></a></li>
+              <li><a href=""><img src="images/tiktok_footer.png" alt="TikTok van Oasis"></a></li>
+              <li><a href=""><img src="images/twitter_footer.png" alt="Twitter van Oasis"></a></li>
+              <li><a href=""><img src="images/facebook_footer.png" alt="Facebook van Oasis"></a></li>
+              <li><a href=""><img src="images/youtube._footer.png" alt="YouTube van Oasis"></a></li>
+          </ul>
+          
+          <h2>Elsewhere:</h2>
+          <ul>
+           <li><h2>Noel Gallagher</h2>
+           <a href="https://www.noelgallagher.com">noelgallagher.com</a>
+          </li>
+           <li><h2>Liam Gallagher</h2>
+           <a href="https://www.liamgallagher.com/home/">liamgallagher.com</a>
+          </li>
+           <li><h2>Oasis Setlists</h2>
+           <a href="https://www.setlist.fm/search?artist=bd6bd7e&query=oasis">setlist.fm</a>
+          </li>
+           <li><h2>Fan Site</h2>
+           <a href="http://www.stopcryingyourheartout.co.uk/">stopcryingyourheartout.co.uk</a>
+          </li>
+          </ul>
+        </section>
 
-        <h2>Follow Oasis on:</h2>
-        <ul>
-          <li>
-            <a href=""
-              ><img src="images/instagram_footer.png" alt="Instagram van Oasis"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/tiktok_footer.png" alt="TikTok van Oasis"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/twitter_footer.png" alt="Twitter van Oasis"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/facebook_footer.png" alt="Facebook van Oasis"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/youtube._footer.png" alt="YouTube van Oasis"
-            /></a>
-          </li>
-        </ul>
-
-        <h2>Elsewhere:</h2>
-        <ul>
-          <li>
-            <h2>Noel Gallagher</h2>
-            <a href="https://www.noelgallagher.com">noelgallagher.com</a>
-          </li>
-          <li>
-            <h2>Liam Gallagher</h2>
-            <a href="https://www.liamgallagher.com/home/">liamgallagher.com</a>
-          </li>
-          <li>
-            <h2>Oasis Setlists</h2>
-            <a href="https://www.setlist.fm/search?artist=bd6bd7e&query=oasis"
-              >setlist.fm</a
-            >
-          </li>
-          <li>
-            <h2>Fan Site</h2>
-            <a href="http://www.stopcryingyourheartout.co.uk/"
-              >stopcryingyourheartout.co.uk</a
-            >
-          </li>
-        </ul>
       </nav>
     </footer>
     <script defer src="scripts/script.js"></script>

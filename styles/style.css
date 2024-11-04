@@ -33,7 +33,7 @@ main section:nth-of-type(1) h2:nth-of-type(2) {
 }
 
 main section:nth-of-type(1) p {
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.5;
 	margin: 0 auto;
 	max-width: 90%;
@@ -132,9 +132,13 @@ main section:nth-of-type(2) img {
 
 
 
+
 /* section Oasis live '25 */
 
 main section:nth-of-type(3){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
 }
 
@@ -199,52 +203,8 @@ main section:nth-of-type(3) video {
 /****************/
 /*    MEDIA     */
 /****************/
-
-/*@media (min-width:75em) {
-	header > button {
-	  position:absolute;
-	  left:-9999em;
-	  
-	}
-	header nav {
-		display: flex;
-		position:static;
-		translate:unset;
-		padding:0;
-		background:none;
-	  }
-	  
-	  header nav button {
-		position:absolute;
-		left:-9999em;
-		
-	  }
-	  
-	  nav ul {
-		display:flex;
-		gap:.5em;
-		
-	  }
-
-	  
-	  
-	  nav a {
-		border: none;
-		flex-direction: column;
-		
-	  }
-	  header > a:last-of-type {
-		flex-direction:column;
-		
-	  }
-	}*/
 	
 	@media (min-width:60em) {
-		/*header > a:last-of-type,
-		nav a {
-		  flex-direction:row;
-		  
-		}*/
 
 		main section:nth-of-type(1) {
 			text-align: center;
@@ -255,6 +215,7 @@ main section:nth-of-type(3) video {
 			text-align: center;
 			max-width: 50em;
 		}
+
 
 		main section:nth-of-type(1) img {
 			max-width: 50%;
@@ -277,6 +238,12 @@ main section:nth-of-type(3) video {
 			display: flex;
 			gap: 2em;
 			justify-content: center;
+		}
+
+		main section:nth-of-type(3) p {
+			text-align: center;
+			max-width: 35em;
+			font-size: larger;
 		}
 
 		main section:nth-of-type(3) img {
