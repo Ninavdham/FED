@@ -8,6 +8,11 @@
 /***********/
 
 /* Section Music */
+
+.content{
+	display: flex;
+
+}
 .content ul{
 	display: none;
   }
@@ -18,6 +23,11 @@
   
 
 /* muziek categorie buttons */
+
+.buttons{
+	position: relative;
+	z-index: 2;
+}
 main section:nth-of-type(2) input[type="button"]{
 	outline: .2em solid black;
 	padding: .2em;
