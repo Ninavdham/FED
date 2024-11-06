@@ -208,25 +208,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/Homepage_telefoon.png" width="375px" alt="Homepage telefoonscherm">
+
   <img src="readme-images/Homepage_laptop.png" width="375px" alt="Homepage laptop scherm">
+
   <img src="readme-images/Releases_telefoon.png" width="375px" alt="Releases telefoonscherm">
+
   <img src="readme-images/Releases_laptop.png" width="375px" alt="Releases laptop scherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik ben erg trots op het hamburgermenu. Het heeft me laten zien dat, hoe moeilijk de oefening ook lijkt, het toch mogelijk is om het zelf toe te passen.
+
   <img src="readme-images/menu1.png" width="375px" alt="top">
   <img src="readme-images/menu2.png" width="375px" alt="top">
 
   Het maken van de carousel was lastig. Ik liep lange tijd tegen het probleem aan van de verkeerde selectoren, maar het is uiteindelijk gelukt en heeft me geholpen om er wat meer inzicht in te krijgen.
+
   <img src="readme-images/carousel_top.png" width="375px" alt="top">
 
 
   Ik had moeite met het toevoegen van de zoekknop; deze verscheen niet in beeld. Na goed te kijken, ontdekte ik dat de knop samen met het hamburgermenu-icoontje van het scherm werd geduwd wanneer het scherm werd vergroot. Door een extra klasse toe te voegen aan de zoekknop, heb ik dit probleem kunnen oplossen.
+
   <img src="readme-images/searchbutton1.png" width="375px" alt="top">
   <img src="readme-images/searchbutton2.png" width="375px" alt="top">
 
   Het lukte maar niet om de knoppen te laten werken op een groter schermformaat, totdat ik ontdekte dat de flex-container van het hamburgermenu ervoor zat. Door de z-index van de knoppen aan te passen, werden ze weer klikbaar.
+
   <img src="readme-images/buttons_zindex.png" width="375px" alt="top">
 
 
@@ -236,6 +243,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/footermenu.png" width="375px" alt="bummer">
 
   Op de releasepagina heb ik een muziekfilter- en selectiefunctie toegevoegd, maar het lukte lange tijd niet om deze goed werkend te krijgen; alle items bleven zichtbaar in plaats van te filteren. Na wat geknutsel met de code ontdekte ik dat het wel werkt wanneer ik de display-instelling van flex uitschakel. Dat was een stap vooruit, maar nu blijven de items in één rij onder elkaar staan, in plaats van netjes verdeeld in drie kolommen naast elkaar.
+  
   <img src="readme-images/filternoflex.png" width="375px" alt="bummer">
   <img src="readme-images/filterflex.png" width="375px" alt="bummer">
 

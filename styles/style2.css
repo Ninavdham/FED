@@ -22,6 +22,10 @@
   }
   
 
+
+
+
+
 /* muziek categorie buttons */
 
 .buttons{
@@ -51,6 +55,12 @@ main section:nth-of-type(2) input[type="text"] {
 	margin: .3em;
 } 
 
+
+
+
+
+
+
 /* Albums categorien Ul's*/
 main section:nth-of-type(3){
 	display: flex;
@@ -78,11 +88,6 @@ main section:nth-of-type(3) img{
 
 
   
-
-
-
-
-
 
 
 

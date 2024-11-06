@@ -21,6 +21,18 @@ function sluitMenu(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Darkmode
 const toggleButton = document.getElementById('darkModeToggle');
 const bodyElement = document.body;
@@ -40,6 +52,25 @@ toggleButton.addEventListener('click', function () {
 
     localStorage.setItem('theme', currentTheme);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Filter/selectie modus "Releases"
