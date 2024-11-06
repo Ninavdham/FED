@@ -74,9 +74,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/FED_breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
 
 </details>
 
@@ -91,8 +88,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Bij het maken van de breakdownschets en dus ook bij de html vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
+  
   <img src="readme-images/screenshot1.png" width="375px" alt="Eerste voortgang html-code">
+
+  
   Moet/kan de titel van een menubalk in een lijnstructuur?
+  
   <img src="readme-images/screenshot2.png" width="375px" alt="Voortgang html-code">
 
 
@@ -207,13 +208,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  Homepage telefoon 
   <img src="readme-images/Homepage_telefoon.png" width="375px" alt="Homepage telefoonscherm">
-
+  
+  Homepage laptop
   <img src="readme-images/Homepage_laptop.png" width="375px" alt="Homepage laptop scherm">
 
+  
+  Releases telefoon
   <img src="readme-images/Releases_telefoon.png" width="375px" alt="Releases telefoonscherm">
 
+  Releases laptop
   <img src="readme-images/Releases_laptop.png" width="375px" alt="Releases laptop scherm">
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -235,6 +243,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Het lukte maar niet om de knoppen te laten werken op een groter schermformaat, totdat ik ontdekte dat de flex-container van het hamburgermenu ervoor zat. Door de z-index van de knoppen aan te passen, werden ze weer klikbaar.
 
   <img src="readme-images/buttons_zindex.png" width="375px" alt="top">
+
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
