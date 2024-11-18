@@ -74,6 +74,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/FED_breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
+  ### dynamisch deel (bijv menu): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
 
 </details>
 
@@ -88,12 +91,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Bij het maken van de breakdownschets en dus ook bij de html vind ik het soms lastig te zeggen waar bepaalde sections beginnen en/of eindigen. Ook vind ik het lastig te stellen wanneer er gebruik gemaakt moet worden van paragrafen in plaats van headers.
-  
   <img src="readme-images/screenshot1.png" width="375px" alt="Eerste voortgang html-code">
-
-  
   Moet/kan de titel van een menubalk in een lijnstructuur?
-  
   <img src="readme-images/screenshot2.png" width="375px" alt="Voortgang html-code">
 
 
@@ -208,20 +207,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  Homepage telefoon 
   <img src="readme-images/Homepage_telefoon.png" width="375px" alt="Homepage telefoonscherm">
-  
-  Homepage laptop
+
   <img src="readme-images/Homepage_laptop.png" width="375px" alt="Homepage laptop scherm">
 
-  
-  Releases telefoon
   <img src="readme-images/Releases_telefoon.png" width="375px" alt="Releases telefoonscherm">
 
-  Releases laptop
   <img src="readme-images/Releases_laptop.png" width="375px" alt="Releases laptop scherm">
-
-
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -245,9 +237,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/buttons_zindex.png" width="375px" alt="top">
 
 
-
-
-
   ### Dit was lastig/Is niet gelukt:
    Het is gelukt om de website responsive te maken, maar het was een uitdaging en de overgangen naar verschillende schermgroottes verlopen op sommige punten nog niet helemaal soepel. Zo had ik bijvoorbeeld veel moeite met het responsive maken van het footermenu en het plaatsen van het menu in twee kolommen naast elkaar. Na veel inspanning is het gelukt, maar sommige details ontbreken nog of komen niet helemaal overeen met het origineel. 
 
@@ -258,7 +247,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/filternoflex.png" width="375px" alt="bummer">
   <img src="readme-images/filterflex.png" width="375px" alt="bummer">
 
+
+  ### Wijzigingen herkansing:
+
+  Voor de herkansing heb ik me extra gericht op de responsiviteit van de website. Dit heb ik gedaan door extra gebruik te maken van *display: flex* binnen de verschillende media queries en door meer variatie aan te brengen in de grootte van de content. Daarnaast heb ik ook verschillende fouten in de code opgelost.
+
+  <img src="homepagina2.0.png" width="375px" alt="top">
+
+  Tijdens het werken aan de herkansing stuitte ik op een probleem waarbij de tekst op de verschillende pagina's op een onverklaarbare manier van elkaar verschilde. In eerste instantie probeerde ik om het probleem heen te werken, maar op het laatste moment vond ik dit toch te storend. Toen herinnerde ik me dat de originele versie van de ingeleverde website dit probleem niet had. Gelukkig had ik hier nog toegang toe, dus besloot ik opnieuw vanaf dat punt te beginnen. Dit betekende dubbel werk, maar het heeft uiteindelijk geholpen om het probleem met de inconsistenties in lettergrootte op te lossen!
+
+  <img src="fontverschil1.png" width="375px" alt="bummer">
   
+  <img src="fontverschil2.png" width="375px" alt="bummer">
+
+
+
+
+
+
+
 </details>
 
 

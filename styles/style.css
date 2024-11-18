@@ -67,6 +67,19 @@ main section:nth-of-type(1) li a {
 	list-style: none;
 }
 
+main article{
+	text-align: center;
+	font-size: medium;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+video {
+	width: 100%;
+	height: auto;
+	margin-top: 2em;
+}
+
 
 
 
@@ -213,6 +226,24 @@ main section:nth-of-type(3) video {
 	
 	@media (min-width:60em) {
 
+		main section:first-of-type{
+			display: flex;
+		}
+
+		main section:first-of-type{
+			display: flex;
+		}
+		main section:first-of-type section:only-of-type{
+			flex-direction: column;
+			   }
+		main section:first-of-type section:only-of-type h1, h2, p {
+			text-align: left;
+			   }
+		main section:first-of-type section:only-of-type p {
+			text-align: left;
+			   }
+
+
 		main section:nth-of-type(1) {
 			text-align: center;
 			align-items: center;
@@ -225,11 +256,8 @@ main section:nth-of-type(3) video {
 
 
 		main section:nth-of-type(1) img {
-			max-width: 50%;
+			max-width: 70%;
 			height: auto;
-			margin: 4em;
-			margin-left: 19em;
-			margin-right: 19em;
 		}
 		
 		main section:nth-of-type(1) video {
@@ -239,6 +267,23 @@ main section:nth-of-type(3) video {
 			margin: 4em;
 			margin-left: 19em;
             margin-right: 19em;
+		}
+
+		main article{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			font-size: x-large;
+			margin-top: 2em;
+			margin-bottom: 4em;
+		}
+
+		main video {
+			width: 50%;
+            height: auto;
+            margin-top: 2em;
 		}
 
 		main section:nth-of-type(2) ul {
@@ -264,6 +309,28 @@ main section:nth-of-type(3) video {
 			margin-top: 2em;
 		}
 		
+		@media (min-width:80em) {
+		
+			main section:first-of-type{
+				display: flex;
+				font-size: large;
+			}
+
+			main section:first-of-type section:only-of-type{
+				flex-direction: column;
+				   }
+			main section:first-of-type section:only-of-type h1, h2, p {
+				text-align: left;
+				   }
+			main section:first-of-type section:only-of-type p {
+				text-align: left;
+				   }
+			main section:nth-of-type(1) img {
+				max-width: 90%;
+				height: auto;
+				
+			}
+	}	
 
 	  }
 	

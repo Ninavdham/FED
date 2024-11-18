@@ -72,18 +72,44 @@ toggleButton.addEventListener('click', function () {
 
 
 
-
 //Filter/selectie modus "Releases"
-/* Hulp bron: ChatGPT */
+
 function showCategory(categoryClass, button) {
     const allCategories = document.querySelectorAll('.content ul');
-    allCategories.forEach(category => category.classList.remove('active-category'));
-  
-    document.querySelector(`.${categoryClass}`).classList.add('active-category');
+    allCategories.forEach(category => {
+      category.classList.remove('active-category');
+      category.style.display = 'none';
+    });
 
+    const selectedCategory = document.querySelector('.${categoryClass}');
+    if (selectedCategory){
+      selectedCategory.classList.add('active-category');
+      selectedCategory.style.display = 'block';
+    }
 
     const allButtons = document.querySelectorAll('.buttons input');
     allButtons.forEach(btn => btn.classList.remove('active'));
+
     button.classList.add('active');
   }
+
+  document.querySelectorAll('.button input').forEach(button => {
+    button.addEventListener('click', function(){
+      const categoryClass = button.value.toLowerCase().replace(/ & | \(|\)|\s/g, '-').replace(/--/g, '-');
+        showCategory(categoryClass, button);
+    });
+  });
+
+  // Voeg event listeners toe aan de knoppen
+document.querySelectorAll('.buttons input').forEach(button => {
+  button.addEventListener('click', function() {
+      // Haal de categorieklasse op basis van de knopwaarde
+      const categoryClass = button.value.toLowerCase().replace(/ & | \(|\)|\s/g, '-').replace(/--/g, '-');
+      
+      // Roep de showCategory-functie aan met de juiste parameters
+      showCategory(categoryClass, button);
+  });
+});
+
+  
   
