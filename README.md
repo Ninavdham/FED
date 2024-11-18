@@ -252,13 +252,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Voor de herkansing heb ik me extra gericht op de responsiviteit van de website. Dit heb ik gedaan door extra gebruik te maken van *display: flex* binnen de verschillende media queries en door meer variatie aan te brengen in de grootte van de content. Daarnaast heb ik ook verschillende fouten in de code opgelost.
 
-  <img src="homepagina2.0.png" width="375px" alt="top">
+  <img src="readme-images/homepagina2.0.png" width="375px" alt="top">
 
   Tijdens het werken aan de herkansing stuitte ik op een probleem waarbij de tekst op de verschillende pagina's op een onverklaarbare manier van elkaar verschilde. In eerste instantie probeerde ik om het probleem heen te werken, maar op het laatste moment vond ik dit toch te storend. Toen herinnerde ik me dat de originele versie van de ingeleverde website dit probleem niet had. Gelukkig had ik hier nog toegang toe, dus besloot ik opnieuw vanaf dat punt te beginnen. Dit betekende dubbel werk, maar het heeft uiteindelijk geholpen om het probleem met de inconsistenties in lettergrootte op te lossen!
 
-  <img src="fontverschil1.png" width="375px" alt="bummer">
+  <img src="readme-images/fontverschil1.png" width="375px" alt="bummer">
   
-  <img src="fontverschil2.png" width="375px" alt="bummer">
+  <img src="readme-images/fontverschil2.png" width="375px" alt="bummer">
 
 
 
