@@ -417,52 +417,66 @@ footer nav ul:nth-of-type(3) li h2{
   /***************************/
   /* STYLING LIGHT/DARK MODE */
   /***************************/
-  /* Bron: ChatGPT */
-/* Default (light mode) kleuren */
-:root {
-	--bg-color: #ffffff;
-	--text-color: #000000;
-	--link-color: #000000;
-	--button-bg-color: #000000;
-	--button-text-color: #ffffff;
-	--border-color: #ccc;
-  }
-  
-  /* Dark mode kleuren */
-  .dark-mode {
-	--bg-color: #121212;
-	--text-color: #e0e0e0;
-	--link-color: #8ab4f8;
-	--button-bg-color: #e0e0e0;
-	--button-text-color: #121212;
-	--border-color: #444;
-  }
-  
-  /* Algemene stijlen die gebruik maken van de variabelen */
-  body {
-	background-color: var(--bg-color);
-	color: var(--text-color);
-	transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  a {
-	color: var(--link-color);
-  }
-  
-  button {
-	background-color: var(--button-bg-color);
-	color: var(--button-text-color);
-	border: 1px solid var(--border-color);
-	padding: 0.5em 1em;
-	cursor: pointer;
-	transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  /* Specifieke stijl voor de toggle-knop */
-  #darkModeToggle {
-	margin-top: 2em;
-  }
-  
+  /* Hulpbron: ChatGPT */
+   /* Light mode kleuren */
+   :root {
+   	 --bg-color: #ffffff;
+   	 --text-color: #000000;
+   	 --link-color: #000000;
+   	 --button-bg-color: #000000;
+   	 --button-text-color: #ffffff;
+   	 --border-color: rgb(255, 255, 255);
+     }
+     
+     /* Dark mode kleuren */
+    .dark-mode {
+   	 --bg-color: #121212;
+   	 --text-color: #ffffff;
+   	 --link-color: #ffffff;
+   	 --button-bg-color: #ffffff;
+   	 --button-text-color: #121212;
+   	 --border-color: rgb(0, 0, 0);
+     }
+
+	 .dark-mode header nav a {
+		 color: white;
+	 }
+
+	 .dark-mode main section:nth-of-type(3) a{
+		 color: white;
+	 }
+
+
+	.dark-mode main section:nth-of-type(4) ul li a{
+		color: white;
+	}
+     
+     /* Algemene stijlen die gebruik maken van de variabelen */
+    body {
+     background-color: var(--bg-color);
+     color: var(--text-color);
+     transition: background-color 0.3s ease, color 0.3s ease;
+     }
+     
+    a {
+   	 color: var(--link-color);
+     }
+     
+    button {
+   	 background-color: var(--button-bg-color);
+   	 color: var(--button-text-color);
+   	 border: 1px solid var(--border-color);
+   	 padding: 0.5em 1em;
+   	 cursor: pointer;
+   	 transition: background-color 0.3s ease, color 0.3s ease;
+     }
+     
+    /*Toggle-knop */
+    #darkModeToggle {
+   	margin-top: 2em;
+	   
+	}
+	   
 
 
 

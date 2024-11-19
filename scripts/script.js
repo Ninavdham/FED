@@ -71,43 +71,22 @@ toggleButton.addEventListener('click', function () {
 
 
 
-
-//Filter/selectie modus "Releases"
-
-function showCategory(categoryClass, button) {
-    const allCategories = document.querySelectorAll('.content ul');
-    allCategories.forEach(category => {
-      category.classList.remove('active-category');
-      category.style.display = 'none';
-    });
-
-    const selectedCategory = document.querySelector('.${categoryClass}');
-    if (selectedCategory){
-      selectedCategory.classList.add('active-category');
-      selectedCategory.style.display = 'block';
-    }
-
-    const allButtons = document.querySelectorAll('.buttons input');
-    allButtons.forEach(btn => btn.classList.remove('active'));
-
-    button.classList.add('active');
-  }
-
-  document.querySelectorAll('.button input').forEach(button => {
-    button.addEventListener('click', function(){
-      const categoryClass = button.value.toLowerCase().replace(/ & | \(|\)|\s/g, '-').replace(/--/g, '-');
-        showCategory(categoryClass, button);
-    });
-  });
-
-  // Voeg event listeners toe aan de knoppen
 document.querySelectorAll('.buttons input').forEach(button => {
   button.addEventListener('click', function() {
-      // Haal de categorieklasse op basis van de knopwaarde
-      const categoryClass = button.value.toLowerCase().replace(/ & | \(|\)|\s/g, '-').replace(/--/g, '-');
-      
-      // Roep de showCategory-functie aan met de juiste parameters
-      showCategory(categoryClass, button);
+    // Verwijder active class van de buttons
+    document.querySelectorAll('.buttons input').forEach(btn => btn.classList.remove('active'));
+    // Voeg active class toe aan geklikte button
+    this.classList.add('active');
+
+    // Verberg alle content sections
+    document.querySelectorAll('.content ul').forEach(ul => ul.classList.remove('active-category'));
+
+    // Toon de content die valt onder de button
+    const category = this.value.split(' ')[0].toLowerCase(); // e.g., "albums" from "Albums (7)"
+    const target = document.querySelector(`.${category}`);
+    if (target) {
+      target.classList.add('active-category');
+    }
   });
 });
 
