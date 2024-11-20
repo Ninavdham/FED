@@ -420,22 +420,20 @@ footer nav ul:nth-of-type(3) li h2{
   /* Hulpbron: ChatGPT */
    /* Light mode kleuren */
    :root {
-   	 --bg-color: #ffffff;
-   	 --text-color: #000000;
-   	 --link-color: #000000;
-   	 --button-bg-color: #000000;
-   	 --button-text-color: #ffffff;
-   	 --border-color: rgb(255, 255, 255);
+   	 --bg-color: white;
+   	 --text-color: black;
+   	 --link-color: black;
+   	 --button-bg-color: black;
+   	 --button-text-color: white;
      }
      
      /* Dark mode kleuren */
     .dark-mode {
-   	 --bg-color: #121212;
-   	 --text-color: #ffffff;
-   	 --link-color: #ffffff;
-   	 --button-bg-color: #ffffff;
-   	 --button-text-color: #121212;
-   	 --border-color: rgb(0, 0, 0);
+   	 --bg-color: black;
+   	 --text-color: white;
+   	 --link-color: white;
+   	 --button-bg-color: white;
+   	 --button-text-color: black;
      }
 
 	 .dark-mode header nav a {
@@ -450,8 +448,12 @@ footer nav ul:nth-of-type(3) li h2{
 	.dark-mode main section:nth-of-type(4) ul li a{
 		color: white;
 	}
+
+	.dark-mode header nav a img{
+		filter: invert();
+	}
      
-     /* Algemene stijlen die gebruik maken van de variabelen */
+    
     body {
      background-color: var(--bg-color);
      color: var(--text-color);
@@ -465,9 +467,7 @@ footer nav ul:nth-of-type(3) li h2{
     button {
    	 background-color: var(--button-bg-color);
    	 color: var(--button-text-color);
-   	 border: 1px solid var(--border-color);
    	 padding: 0.5em 1em;
-   	 cursor: pointer;
    	 transition: background-color 0.3s ease, color 0.3s ease;
      }
      
@@ -656,6 +656,10 @@ footer nav ul:nth-of-type(3) li h2{
 	  
 		main section {
 		  padding: 2em;
+		}
+
+		header nav ul {
+			font-size: 1.3em;
 		}
 	  
 	  }

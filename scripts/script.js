@@ -70,7 +70,7 @@ toggleButton.addEventListener('click', function () {
 
 
 
-
+// Muziek filter (releases)
 document.querySelectorAll('.buttons input').forEach(button => {
   button.addEventListener('click', function() {
     // Verwijder active class van de buttons
